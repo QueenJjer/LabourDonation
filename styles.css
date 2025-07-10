@@ -158,3 +158,27 @@
   width: 110px; 
   height: 70px;
 }
+
+.image-container {
+  position: relative;
+  width: 800px; /* or whatever size you want */
+}
+
+.image-container img {
+  width: 100%;
+  display: block;
+  margin-left: -30px;
+}
+
+.overlay-text {
+  position: absolute;
+  width: 300px;
+  top: 350px;
+  left: 70%;
+  transform: translate(-50%, -50%); 
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
