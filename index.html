@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baby Bottle Fundraiser</title>
+  <link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="border left"></div>
+  <div class="border right"></div>
+
+<img class="nipple" src="https://cdn4.iconfinder.com/data/icons/lactation-and-newborn-1/100/baby_nipple_plastic_bottle_feeding_infant-64.png">
+
+  <div class="bottle">
+    <div class="goal">$4500</div>
+    <div class="milk"></div>
+  </div>
+
+  <div class="animals">
+  <img class="animal" src="https://cdn3.iconfinder.com/data/icons/animal-40/128/Animal_Elephant-64.png" alt="ele">
+  <img class="animal" src="https://cdn3.iconfinder.com/data/icons/animal-40/128/Animal_Giraffe-64.png" alt="gir">
+  <img class="animal" src="https://cdn3.iconfinder.com/data/icons/animal-40/128/Animal_Bear-64.png" alt="Bear">
+    <img class="animal" src="https://cdn3.iconfinder.com/data/icons/animal-40/128/Animal_Lion-64.png" alt="lion">
+    <img class="animal" src="https://cdn3.iconfinder.com/data/icons/animal-40/128/Animal_Pig-64.png" alt="pig">
+    <img class="animal" src="https://cdn3.iconfinder.com/data/icons/animal-40/128/Animal_Goat-64.png" alt="goat">
+</div>
+
+  <div class="donations">
+    <h3>Donations</h3>
+    <ul id="donationList"></ul>
+  </div>
+
+  <button id="donateBtn">Donate</button>
+
+  <div id="donateModal">
+    <div class="modal-content">
+      <h3>Submit Your Donation</h3>
+      <input type="number" id="amountInput" placeholder="Amount"> <br><br>
+      <input type="text" id="nameInput" placeholder="Name (optional)"> <br><br>
+      <textarea id="messageInput" placeholder="Message (optional)"></textarea><br><br>
+      <label><input type="checkbox" id="anonymousCheck"> Donate anonymously</label><br><br>
+      <button id="submitDonation">Submit</button>
+      <button id="closeModal">Cancel</button>
+    </div>
+  </div>
+<div class="donation-links">
+  <a href="https://www.venmo.com/u/Jordan_Ensminger" target="_blank" class="donate-btn venmo">Venmo</a>
+  <a href="https://cash.app/$QueenjJer/" target="_blank" class="donate-btn cashapp">Cash App</a>
+  <a href="paypal.me/payyourqueenj" target="_blank" class="donate-btn paypal">PayPal</a>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
